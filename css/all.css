@@ -107,38 +107,21 @@ hr{
 .decoration{
   width: 150px;
   height: 150px;
-  background: linear-gradient(135deg,#5b78d9,#234a99);
   border-radius:100px 100px 100px 100px;
+  background: linear-gradient(135deg,#5b78d9,#234a99);
   position: absolute;
   right:55px;
-  top:40px;
+  top:30px;
 }
 .decoration2{
-  width: 50px;
-  height: 50px;
-  background: linear-gradient(135deg,#5b78d9,#234a99);
-  border-radius:100px 100px 100px 100px;
+  width: 150px;
+  height: 150px;
+ border-radius:100px 100px 100px 100px;
   position: absolute;
-  right:10px;
-  top:300px;
-}
-.decoration3{
-  width: 10px;
-  height: 10px;
-  background: linear-gradient(135deg,#5b78d9,#234a99);
-  border-radius:100px 100px 100px 100px;
-  position: absolute;
-  right:10px;
-  top:50px;
-}
-.decoration4{
-  width: 20px;
-  height: 20px;
-  background: linear-gradient(135deg,#5b78d9,#234a99);
-  border-radius:100px 100px 100px 100px;
-  position: absolute;
-  right:10px;
-  top:10px;
+background-image: 
+url(https://i.imgur.com/l0qE0NR.jpg);
+  right:60px;
+  top:25px;
 }
 .listExperience>li{
   display: flex;
@@ -182,11 +165,11 @@ hr{
 .circle{
   width: 60px;
   height: 60px;
-  background-color: #fff;
+  background-color: #dbe8ff;
   border-radius:50%;
   position: relative;
   overflow: hidden;
-  background-color: rgba(91,120,217,0.4);
+  background-color: 
 }
 .circle::after{
   content:"";
@@ -230,7 +213,7 @@ hr{
 /* list Program */
 .listProgram .bar{
   width: 120px;
-  height: 7px;
+  height: 6px;
   border: solid 2px #5b78d9;
   border-radius:20px
 }
@@ -331,8 +314,9 @@ list-style:none;
 /*内側のボックスの高さが崩れないように維持*/
 .item-content {
   position: relative;
-  width: 100%;
+  width: 95%;
   height: 100%;
+  padding: 5px;
 }
 
 
@@ -347,21 +331,6 @@ list-style:none;
 	height:auto;
 	vertical-align: middle;
 }
-
-.item-content .box{
-  padding:15px;
-  width:100%;
-	height:400px;
-  background-color: #fff;
-}
-.item-content .box .top{
-  height:50%;
-  position: static;
-  border-radius:10px;
-  background-image: url(https://doqvf81n9htmm.cloudfront.net/data/crop_article/7642/148-1-1.jpg_1140x855.jpg);
-  background-size: cover;
-}
-
 /*横幅が768px以下になった際の指定*/
 @media only screen and (max-width: 768px) {
 .item {
