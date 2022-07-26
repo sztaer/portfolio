@@ -11,19 +11,7 @@ body{
   letter-spacing:1px;
   font-family:微軟正黑體,sans-serif;
   background:#234a99;
-	background-size: cover;/*サイズを大きくひきのばす*/
-}
-
-@keyframes bggradient{
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+	background-size: cover;
 }
 /* 複寫區 */
 ul{
