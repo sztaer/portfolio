@@ -10,10 +10,8 @@ body{
   line-height:30px;
   letter-spacing:1px;
   font-family:微軟正黑體,sans-serif;
-  background:linear-gradient(45deg, #0E185F,#8F77B5,#E8FFC2
-);/*グラデーションを定義*/
+  background:#E8FFC2;
 	background-size: cover;/*サイズを大きくひきのばす*/
-	animation: bggradient 10s ease infinite;
 }
 
 @keyframes bggradient{
